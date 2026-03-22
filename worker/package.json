@@ -9,8 +9,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "fflate": "^0.8.2",
+    "hono": "^4.12.8",
+    "jose": "^6.2.2",
+    "nanoid": "^5.1.7",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260317.1",
+    "wrangler": "^4.76.0"
   }
 }
